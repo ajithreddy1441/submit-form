@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-purple-500 to-pink-500 flex justify-center items-center h-screen">
+    <div class="w-96 h-96 bg-transparent place-content-center shadow-2xl rounded-lg">
+        <h1 class="text-center uppercase text-xl font-bold pb-6">Registration Form</h1>
+        <form id="Form" class="grid grid-cols-2 gap-8 m-4 ">
+            <input type="text" id="First" placeholder="FirstName" class="rounded-md text-center">
+            <input type="text" id="Last" placeholder="LastName" class="rounded-md text-center">
+            <input type="text" id="User" placeholder="UserName" class="rounded-md text-center">
+            <input type="email" id="Email" placeholder="Email" class="rounded-md text-center">
+            <input type="password" id="Pass" placeholder="Password" class="rounded-md text-center">
+            <input type="number" id="Mobile" placeholder="Mobile" class="rounded-md text-center">
+        </form>
+        <div class="text-center">
+            <button type="submit" class="bg-blue-500 mt-5 rounded-md w-20">Submit</button>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="script.js"></script>
+</html>
